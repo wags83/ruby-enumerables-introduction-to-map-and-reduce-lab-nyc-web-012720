@@ -49,7 +49,7 @@ total = 0
 total
 end
 
-def map_to_total(array)
+def reduce_to_all_true(array)
   i=0
   while i < array.length do
     if array[i] == false
@@ -57,6 +57,18 @@ def map_to_total(array)
     i += 1
   else
     true
+  end
+end
+end
+
+def reduce_to_any_true(array)
+  i=0
+  while i < array.length do
+    if array[i] == true
+      return true
+    i += 1
+  else
+    false
   end
 end
 end
