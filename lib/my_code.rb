@@ -60,3 +60,5 @@ def map_to_total(array)
   end
 end
 end
+
+
