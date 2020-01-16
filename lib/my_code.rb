@@ -46,5 +46,17 @@ total = 0
     total += array[i]
     i += 1
   end
-  return_array
+total
+end
+
+def map_to_total(array)
+  i=0
+  while i < array.length do
+    if array[i] == false
+      return false
+    i += 1
+  else
+    true
+  end
+end
 end
