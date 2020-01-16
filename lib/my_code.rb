@@ -68,5 +68,6 @@ def reduce_to_any_true(array)
     i += 1
   end
 end
+else
   return false
 end
